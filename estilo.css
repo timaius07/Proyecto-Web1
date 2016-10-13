@@ -1,0 +1,85 @@
+body{
+	font-family: Arial;
+}
+
+/*EStilos Generales*/
+nav ul {
+	list-style: none;
+	padding: 0;
+}
+/*li es un menu para acceder a un submenu*/
+nav li {
+	line-height: 3res;
+	position: relative;
+
+}
+/*li ul es el menu para acceder al submenu*/
+.menu ul {
+	position: absolute;
+}
+nav a{
+	color: #ddd;
+	display: block;
+	padding: 0 2.5em;
+	text-decoration: none;
+	transition: .5s;
+}
+
+nav a:hover{
+	background:  rgba(0,0,0,.5);
+}
+	
+
+/*EStilo primer nivel*/
+.menu {
+	background: #333;	
+	display: table;
+	width: 100%;
+}
+
+.menu > li {
+	float: left;
+
+}
+/*EStilo segundo nivel*/
+/*se usa para un menu que esta dentro de otro menu*/
+nav li li {
+	background: #222;
+	max-height: 0;
+	overflow: hidden;
+	transition: all .6s;
+	width: 210px;
+}
+nav li:hover ul > li {
+	max-height: 500px;
+	overflow: visible;
+}
+.menu > li > ul {
+	top: 75%;
+}
+
+#containerheader {
+	width: 100%;
+	height: 98%
+    background-color : blue;   
+    display: flex;     
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+      
+}
+
+.itemimagen{	
+
+	width: 300px;
+	
+	background-color: white;
+}
+.itemtitulo{	
+
+	width: 40%;
+	
+	background-color: white;
+}
