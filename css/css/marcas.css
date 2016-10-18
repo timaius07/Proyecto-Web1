@@ -1,0 +1,31 @@
+
+body{
+	font-family: Arial;
+	background-color: black;
+	margin:0;
+	
+	min-height: 100vh;
+}
+
+h1{
+	color: #fff;
+	text-align: center;
+}
+.galeria {
+	width: 90%;
+    height: 20%;
+	margin: auto;
+	list-style: none;
+	padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.galeria li {
+	margin: 5px;
+}
+.galeria img {
+	width: 150px;
+	height: 100px;
+}
