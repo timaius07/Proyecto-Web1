@@ -1,0 +1,62 @@
+body{
+	font-family: Arial;
+	background-color: black;
+	margin:0;
+}
+
+.galeriam {
+	width: 90%;
+    height: 20%;
+	margin: auto;
+	list-style: none;
+	padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	z-index: -1;
+	
+}
+.galeriam li {
+	margin: 25px;
+	z-index: -1;
+}
+.galeriam img {
+	width: 500px;
+	height: 250px;
+	z-index: -1;
+
+}
+
+h1{
+	color: #fff;
+	text-align: center;
+}
+
+td, th {
+    border: 2px solid white;
+}
+table {
+	border:black;
+    border-collapse: collapse;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+th, td{
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+	background-color: #292a2c;
+	color: white;
+}
+
+
+th {
+    background-color: #212121;
+    color: white;
+}

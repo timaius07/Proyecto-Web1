@@ -1,0 +1,57 @@
+*{
+   padding: 0px;
+   margin: 0px;
+
+}
+#label {
+    display: block;
+    padding-left: 50%;
+    text-indent: 50%;
+}
+#ActivaVentana{
+   display: none;
+}
+
+#AbreModal{
+   display: block;
+   width: 150px;
+   height: 50px;
+   text-align: center;
+   line-height: 50px;
+   background-color: #f57025;
+   color: white;
+   cursor: pointer;
+}
+
+.VentModal{
+   width: 100%;
+   height: 100%;
+   position: fixed;
+   top: -100%;
+   left: 0px;
+   background-color: rgba(0,0,0,.6);
+   transition: all 1s;
+}
+
+#ActivaVentana:checked ~ .VentModal{
+   top: 0%;
+}
+#CierraModal{
+   display: block;
+   color: white;
+   font-size: 3em;
+   background-color: tomato;
+   width: 50px;
+   height: 50px;
+   text-align: center;
+   line-height: 50px;
+   margin-left: 100px; 
+}
+.contenido{
+   width: 500px;
+   height: 600px
+   background-color:#118b1c;
+   color:white;
+   padding: 10px;
+   margin: 50px auto;
+}
