@@ -1,9 +1,9 @@
 body{
-	font-family: Arial;
-	background-color: black;
-	margin:0;
-	
-	min-height: 100vh;
+    font-family: Arial;
+    background-color: black;
+    margin:0;
+    
+    min-height: 100vh;
 }
     html, body {
         height: 50%;
@@ -13,22 +13,22 @@ body{
     }
 
 div#header {
-	position:fixed;
-	top:0px;
-	left:0px;
-	width:100%;
-	color:#CCC;
-	background:#333;
-	padding:20px;
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    color:#CCC;
+    background:#333;
+    padding:20px;
 }
 div#footer {
-	position:fixed;
-	bottom:0px;
-	left:0px;
-	width:100%;
-	color:#CCC;
-	background:#333;
-	padding:8px;
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    color:#CCC;
+    background:#333;
+    padding:8px;
 }
 
 
@@ -62,6 +62,7 @@ nav i {
     font-size: 20px !important;
 }
 nav li ul {
+    font-size: 11px;
     opacity: 0;
     visibility: hidden;
     position: absolute;
@@ -81,11 +82,14 @@ nav li ul li {
     right: 40px;
     top: 10px;
 }
+nav li ul li ul {
+                right:-217px;
+                top:-10px;
+            }
 
 .containerheader {
-	clear: both;
-	float: left;
-	overflow: hidden;
-	width: 95%;
+    clear: both;
+    float: left;
+    overflow: hidden;
+    width: 95%;
 }
-
