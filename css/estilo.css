@@ -23,15 +23,21 @@ div#header {
 }
 div#footer {
     position:fixed;
-    bottom:0px;
+    bottom:-1px;
     left:0px;
     width:100%;
     color:#CCC;
     background:#333;
-    padding:8px;
+    padding:0px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
-
-
+div#footer img {
+    width:100px;
+    height:34px;
+}
 
 nav {
     width: 800px;
