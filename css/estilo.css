@@ -28,7 +28,7 @@ div#footer {
     width:100%;
     color:#CCC;
     background:#333;
-    padding:0px;
+    padding:-15px;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -36,7 +36,7 @@ div#footer {
 }
 div#footer img {
     width:100px;
-    height:34px;
+    height:32px;
 }
 
 nav {
@@ -61,7 +61,7 @@ nav a {
     border-radius: 7px;
 }
 nav a:hover {
-    background-color: #354d5b;
+    background-color: tomato;
 }
 
 nav li {
