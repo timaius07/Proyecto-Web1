@@ -1,0 +1,62 @@
+
+form {
+	width: 600px;
+	margin: auto;
+	background: rgba(0,0,0,0.4); 
+	padding: 10px 10px;
+	box-sizing: border-box;
+	margin-top: 15px;
+	border-radius: 7px;
+
+}
+
+h2{
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+label{
+	color:#fff;
+	text-align: center;
+}
+input, textarea, select {
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 3px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border:none; 
+}
+input[type=radio]{
+ 	width: 30%;
+	margin-bottom: 20px;
+	padding: 5px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border:none; 
+}
+
+
+textarea {
+	min-height: 50px;
+	max-height: 85px;
+	max-width: 100%;
+}
+
+#boton{
+	background-color: #31384A;
+	color: #fff;
+	padding: 8px; 
+}
+
+#boton :hover {
+	cursor: pointer;
+}
+
+@media (max-width: 480px){
+	form{
+		width: 100%;
+	}
+}

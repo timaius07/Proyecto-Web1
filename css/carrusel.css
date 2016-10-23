@@ -25,7 +25,7 @@ body {
 	list-style: none;
 	order: 1;
 	transition: all 50s;
-	animation: slider 35s infinite;
+	animation: slider 50s infinite;
 	padding: 0;
   	margin: 0;
 }

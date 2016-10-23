@@ -58,14 +58,14 @@ nav a {
     color: #fff;
     box-shadow: 0 1px 3px hsla(0,0%,0%,0.5);
     display: block;
+    border-radius: 7px;
 }
 nav a:hover {
     background-color: #354d5b;
 }
-nav i {
-    float: right;
-    margin-right: 15px;
-    font-size: 20px !important;
+
+nav li {
+    flex-grow: 1;
 }
 nav li ul {
     font-size: 11px;
@@ -89,10 +89,13 @@ nav li ul li {
     top: 10px;
 }
 nav li ul li ul {
-                right:-217px;
-                top:-10px;
+                right:-222px;
+                top:-12px;
             }
-
+h2{
+    color: #fff;
+    text-align: center;
+}
 .containerheader {
     clear: both;
     float: left;

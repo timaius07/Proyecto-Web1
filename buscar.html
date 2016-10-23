@@ -2,13 +2,13 @@
 <html lang="es">
 
 	<head>	
-		<title>CRAutos</title>
+		<title>Buscar</title>
 		<BODY BACKGROUND="./img/fondo3.jpg">
 		<meta charset= "utf-8">
 		<meta name = "viewport" content="width=device-width,user-scalable = no,
 		 initial-scale=1, maximum-scale=1, minimum-scale=1"/>
 		<link rel="stylesheet" href="./css/estilo.css">
-		<link rel="stylesheet" href="./css/carrusel.css">
+		<link rel="stylesheet" href="./css/contactenos.css">
 	</head>
 <body>
 	<div id="header">CrAutos    	 
@@ -110,29 +110,64 @@
 						</ul>
 					</li>
 					<li><a href=""> Busque su Auto</a></li>
-					<li><a href="conozcanos.html"> Contáctenos</a></li>
+					<li><a href=""> Conózcanos</a></li>
 				</ul>
 			</nav>
 	</div>	
 	<br>
 	<br>
-
-		<div class="slider">
-			<ul>
-				<li><img src="./img/carrousel/1.jpg" alt=""></li>
-				<li><img src="./img/carrousel/2.jpg" alt=""></li>
-				<li><img src="./img/carrousel/3.jpg" alt=""></li>
-				<li><img src="./img/carrousel/4.jpg" alt=""></li>
-				<li><img src="./img/carrousel/5.jpg" alt=""></li>
-				<li><img src="./img/carrousel/6.jpg" alt=""></li>
-				<li><img src="./img/carrousel/7.jpg" alt=""></li>
-				<li><img src="./img/carrousel/8.jpg" alt=""></li>
-				<li><img src="./img/carrousel/9.jpg" alt=""></li>
-				<li><img src="./img/carrousel/10.jpg" alt=""></li>
-			</ul>
-		</div>
-
-
+	<br>
+	<br>
+	<br>
+	<br>
+		<form action="">
+			<h2>Contáctenos</h2>
+			<label for="male">Modelo del Vehículo</label>
+				 <select>
+					  <option value="audi">Audi</option>
+					  <option value="bmw">BMW</option>
+					  <option value="chevi">Chevrolet</option>
+					  <option value="ferrari">Ferrari</option>
+					  <option value="ford">Ford</option>
+					  <option value="hind">Hyundai</option>
+					  <option value="mazda">Mazda</option>
+					  <option value="porsche">Porsche</option>
+					  <option value="toyota">Toyota</option>
+				</select>
+			<label for="male">Combustible</label>
+		  		  <input type="radio" name="comb" id="gas" value="Gasolina">
+				  <label for="gas">Gasolina </label>
+				  <input type="radio" name="comb" id="diese" value="Diesel">
+				  <label for="diesel">Diesel: </label>
+			<label for="male">Modelo entre los años:</label>
+				 <select>
+			      <option value="90">1990-1995</option>
+				  <option value="96">1996-2000</option>
+				  <option value="2001">2001-2005</option>
+				  <option value="2006">2006-2010</option>
+				  <option value="2011">2011-2015</option>
+				  <option value="2016">2016-2017</option>
+				</select>
+			<label for="male">Precios entre:</label>
+				<select>
+			      <option value="1m">₡1.000.000 y ₡2.000.000</option>
+				  <option value="2m">₡2.000.000 y ₡4.000.000</option>
+				  <option value="3m">₡4.000.000 y ₡6.000.000</option>
+				  <option value="4m">₡6.000.000 y ₡8.000.000</option>
+				  <option value="5m">Más de ₡8.000.000</option>
+				</select>
+			<label for="male">Marchamo al Día</label>
+	  			<input type="radio" name="s" id="si" value="si">
+				<label for="">Si </label>
+				<input type="radio" name="s" id="no" value="no">
+				<label for="">No </label>
+			<label for="male">RTVe al Día</label>
+	  			<select>
+			      <option value="sm">Sí</option>
+				  <option value="nm">No</option>
+				</select>
+			<input type="button" value="Buscar" id= "boton">
+		</form>
 
 		<div id="footer">© 2016 elgaraje.com All rights reserved
 			<div>
